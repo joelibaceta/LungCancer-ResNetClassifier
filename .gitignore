@@ -1,2 +1,5 @@
 lung_dataset
 lungenv
+*.out
+*.log
+*.aux

@@ -7,3 +7,4 @@ ipykernel
 notebook
 pandas
 torchinfo
+.DS_Store

@@ -13,7 +13,7 @@ This repository contains the complete implementation of a deep learning pipeline
 We use the publicly available [LC25000 dataset](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images), filtered to include only lung-related classes. Each class contains 5,000 high-resolution histopathological images.
 
 <p align="center">
-  <img src="dataset_exploration.png" width="450"/>
+  <img src="figs/dataset_exploration.png" width="450"/>
 </p>
 
 
@@ -31,7 +31,7 @@ The `ResNetLung` model is inspired by the original ResNet-18 but implemented fro
 The model was trained for **10 epochs**, achieving **95.61% validation accuracy**.
 
 <p align="center">
-  <img src="resnetlung_architecture.png" width="600">
+  <img src="figs/resnetlung_architecture.png" width="600">
 </p>
 
 ---
@@ -41,7 +41,7 @@ The model was trained for **10 epochs**, achieving **95.61% validation accuracy*
 The classifier achieves strong performance across all classes. Below is the confusion matrix from the final evaluation:
 
 <p align="center">
-  <img src="confusion_matrix.png" width="450">
+  <img src="figs/confusion_matrix.png" width="450">
 </p>
 
 ---
